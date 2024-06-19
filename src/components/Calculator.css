@@ -1,0 +1,28 @@
+.calculator-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .calculator-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .calculator-container input {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 24px); /* Adjust width to fit padding and margin */
+  }
+  
+  .calculator-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .calculator-container p {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }  

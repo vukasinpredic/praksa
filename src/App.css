@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #808080; /* Gray background */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.8);
+  padding: 20px;
+  color: white;
+  margin-top: 50px; /* To offset the fixed navbar */
+}
+
+main {
+  padding: 20px;
+  z-index: 1;
+}
+
+h1 {
+  color: #4a90e2;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+}
+
+.calculator-section {
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
